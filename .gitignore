@@ -1,0 +1,7 @@
+.env
+lib
+node_modules
+.idea
+farcaster-casts.csv
+lens-publications.csv
+bun.lockb
