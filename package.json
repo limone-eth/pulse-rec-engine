@@ -1,0 +1,50 @@
+{
+  "name": "node-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:ts": "ts-node src/index.ts",
+    "start": "node lib/index.js",
+    "build:watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@airstack/node": "^0.0.5",
+    "@apollo/client": "^3.8.6",
+    "@pinecone-database/pinecone": "^1.1.2",
+    "@supabase/supabase-js": "2.38.4",
+    "@xenova/transformers": "2.6.1",
+    "cohere-ai": "^6.2.2",
+    "csv-parser": "3.0.0",
+    "dotenv": "^16.3.1",
+    "fast-csv": "4.3.6",
+    "langchain": "0.0.192",
+    "openai": "4.19.0",
+    "sharp": "^0.32.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "weaviate-ts-client": "^1.6.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.15.8",
+    "@types/node": "^20.1.7",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.48.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-tailwindcss": "^3.8.0",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.8"
+  }
+}
